@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'elusive';
-  src: url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/elusive/font/elusive.eot?63825465');
-  src: url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/elusive/font/elusive.eot?63825465#iefix') format('embedded-opentype'),
-       url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/elusive/font/elusive.woff?63825465') format('woff'),
-       url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/elusive/font/elusive.ttf?63825465') format('truetype'),
-       url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/elusive/font/elusive.svg?63825465#elusive') format('svg');
+  src: url('../font/elusive.eot?63825465');
+  src: url('../font/elusive.eot?63825465#iefix') format('embedded-opentype'),
+       url('../font/elusive.woff?63825465') format('woff'),
+       url('../font/elusive.ttf?63825465') format('truetype'),
+       url('../font/elusive.svg?63825465#elusive') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'elusive';
-    src: url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/elusive/font/elusive.svg?63825465#elusive') format('svg');
+    src: url('../font/elusive.svg?63825465#elusive') format('svg');
   }
 }
 */

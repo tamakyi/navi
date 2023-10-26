@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'meteocons';
-  src: url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/meteocons/font/meteocons.eot?24967826');
-  src: url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/meteocons/font/meteocons.eot?24967826#iefix') format('embedded-opentype'),
-       url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/meteocons/font/meteocons.woff?24967826') format('woff'),
-       url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/meteocons/font/meteocons.ttf?24967826') format('truetype'),
-       url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/meteocons/font/meteocons.svg?24967826#meteocons') format('svg');
+  src: url('../font/meteocons.eot?24967826');
+  src: url('../font/meteocons.eot?24967826#iefix') format('embedded-opentype'),
+       url('../font/meteocons.woff?24967826') format('woff'),
+       url('../font/meteocons.ttf?24967826') format('truetype'),
+       url('../font/meteocons.svg?24967826#meteocons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'meteocons';
-    src: url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/css/fonts/meteocons/font/meteocons.svg?24967826#meteocons') format('svg');
+    src: url('../font/meteocons.svg?24967826#meteocons') format('svg');
   }
 }
 */
