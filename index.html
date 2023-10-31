@@ -2,65 +2,1151 @@
 <html lang="zh">
 
 <head>
-    <link rel="shortcut icon" href="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/images/favicon.png">
-    <meta charset="UTF-8">
-    <title>Tama.Host - 狼的导航页3.0</title>
-    <!-- Matomo -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="viggo" />
+    <title>狼的导航页 Ver3.0</title>
+    <meta name="keywords" content="网址导航,资源,导航,创意网站导航,tama.host">
+    <meta name="description" content="tama.host - 自用，简洁无广告的导航页，持续更新内容。tama.host">
+    <link rel="shortcut icon" href="/assets/bootstrap/static/index/images/favicon.png">
+      
     <script>
       var _paq = window._paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+       
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
         var u="https://index.tama.host/";
         _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '11']);
+        _paq.push(['setSiteId', '5']);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
         g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
       })();
-    </script>
-    <!-- End Matomo Code -->
-
-    <script>
-    if (navigator.appName == "Netscape") {
-        var language = navigator.language;
-    } else {
-        var language = navigator.browserLanguage;
-
-    }
-
-    if (language.indexOf("en") > -1) {
-        document.location.href = "en/index.html";
-    } else if (language.indexOf("zh") > -1) {
-        document.location.href = "cn/index.html";
-    } else {
-        document.location.href = "en/index.html";
-
-    }
-    </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="viggo" />
-    <title>Tama.Host - Navi Page for Everyone</title>
-    <meta name="keywords" content="网址导航,资源,导航,创意网站导航,tama.host">
-    <meta name="description" content="tama.host - 自用，简洁无广告的导航页，持续更新内容。tama.host">
+     </script>
     
-    <!-- / FB Open Graph -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/css/xenon/xenon-core.css">
+    <link rel="stylesheet" href="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/css/xenon/xenon-components.css">
+    <link rel="stylesheet" href="../assets/css/xenon-skins.css">
+    <link rel="stylesheet" href="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/css/nav.css">
+    <link rel="stylesheet" href="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/css/hclonely.css">
+    <script src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/js/jquery.min.js"></script>
+    <script>var userDefinedSearchData = {
+        "custom": false,
+        "thisSearch": "https://www.baidu.com/s?wd=",
+        "thisSearchIcon": "url(https://www.baidu.com/favicon.ico)",
+        "hotStatus": true,
+        "data": [{"name": "百度", "img": "url(https://www.baidu.com/favicon.ico)", "url": "https://www.baidu.com/s?wd="}]
+    };</script>
+    <script src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/js/header.js"></script>
+
+    
+    
+    
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://tama.host/">
-    <meta property="og:title" content="tama.host - 自用，简洁无广告的导航页，持续更新内容。tama.host">
-    <meta property="og:description" content="网址导航,资源,导航,创意网站导航,tama.host">
-    <meta property="og:image" content="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/images/webstack_banner_cn.png">
-    <meta property="og:site_name" content="tama.host - 自用，简洁无广告的导航页，持续更新内容。tama.host">
-    <!-- / Twitter Cards -->
+    <meta property="og:title" content="狼的导航页 Ver3.0">
+    <meta property="og:description" content="tama.host - 自用，简洁无广告的导航页，持续更新内容。tama.host">
+    <meta property="og:site_name" content="狼的导航页 Ver3.0">
+    
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="tama.host - 自用，简洁无广告的导航页，持续更新内容。tama.host">
-    <meta name="twitter:description" content="网址导航,资源,导航,创意网站导航,tama.host">
-    <meta name="twitter:image" content="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/images/webstack_banner_cn.png">
+    <meta name="twitter:title" content="狼的导航页 Ver3.0">
+    <meta name="twitter:description" content="tama.host - 自用，简洁无广告的导航页，持续更新内容。tama.host">
+    
+    
+
 </head>
 
-<body>
+<body class="page-body">
+
+<div class="page-container">
+    <div class="sidebar-menu toggle-others fixed">
+        <div class="sidebar-menu-inner">
+            <header class="logo-env">
+                
+                <div class="logo">
+                    <a href="/" class="logo-expanded">
+                        <img src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/images/logo@2x.png" width="100%" alt=""/>
+                    </a>
+                    <a href="index.html" class="logo-collapsed">
+                        <img src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/images/logo-collapsed@2x.png" width="40" alt=""/>
+                    </a>
+                </div>
+                <div class="mobile-menu-toggle visible-xs">
+                    <a href="#" data-toggle="user-info-menu">
+                        <i class="linecons-cog"></i>
+                    </a>
+                    <a href="#" data-toggle="mobile-menu">
+                        <i class="fa-bars"></i>
+                    </a>
+                </div>
+            </header>
+            <ul id="main-menu" class="main-menu">
+                
+                
+                <li>
+                    <a href="#%e5%b8%b8%e7%94%a8%e6%90%9c%e7%b4%a2" class="smooth">
+                        <i class="lni lni-sketch"></i>
+                        <span class="title">常用搜索</span>
+                    </a>
+                </li>
+                
+                
+                
+                <li>
+                    <a>
+                        <i class="lni lni-envelope"></i>
+                        <span class="title">社区资讯</span>
+                    </a>
+                    <ul>
+                        
+                        <li>
+                            <a href="#%e8%b5%84%e6%ba%90%e5%88%86%e4%ba%ab" class="smooth"><span class="title">资源分享</span></a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                    <a>
+                        <i class="lni lni-star-half"></i>
+                        <span class="title">休闲娱乐</span>
+                    </a>
+                    <ul>
+                        
+                        <li>
+                            <a href="#%e8%a7%86%e9%a2%91%e7%bd%91%e7%ab%99" class="smooth"><span class="title">视频网站</span></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#%e6%b8%b8%e6%88%8f%e7%9b%b8%e5%85%b3" class="smooth"><span class="title">游戏相关</span></a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                    <a>
+                        <i class="lni lni-download"></i>
+                        <span class="title">资源分享</span>
+                    </a>
+                    <ul>
+                        
+                        <li>
+                            <a href="#%e7%9b%b4%e6%92%ad%e7%b4%a0%e6%9d%90" class="smooth"><span class="title">直播素材</span></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#%e7%bb%bc%e5%90%88%e8%b5%84%e6%ba%90" class="smooth"><span class="title">综合资源</span></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#%e7%95%aa%e5%89%a7%e4%b8%8b%e8%bd%bd" class="smooth"><span class="title">番剧下载</span></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#%e8%bd%bb%e5%b0%8f%e8%af%b4" class="smooth"><span class="title">轻小说</span></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#ACGN%e8%b5%84%e6%ba%90" class="smooth"><span class="title">ACGN资源</span></a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                    <a>
+                        <i class="lni lni-ux"></i>
+                        <span class="title">小工具</span>
+                    </a>
+                    <ul>
+                        
+                        <li>
+                            <a href="#%e7%bd%91%e9%a1%b5%e5%b0%8f%e5%b7%a5%e5%85%b7" class="smooth"><span class="title">网页小工具</span></a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                    <a>
+                        <i class="lni lni-website"></i>
+                        <span class="title">我的网站</span>
+                    </a>
+                    <ul>
+                        
+                        <li>
+                            <a href="#%e5%85%b6%e4%bb%96%e6%9c%8d%e5%8a%a1" class="smooth"><span class="title">其他服务</span></a>
+                        </li>
+                        
+                        <li>
+                            <a href="#%e8%87%aa%e5%bb%ba%e6%9c%8d%e5%8a%a1" class="smooth"><span class="title">自建服务</span></a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                <li>
+                    <a href="/about">
+                        <i class="lni lni-heart"></i>
+                        <span class="tooltip-blue">关于本站</span>
+                        <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <nav class="navbar user-info-navbar" role="navigation">
+            
+            
+            <ul class="user-info-menu left-links list-inline list-unstyled">
+                <li class="hidden-sm hidden-xs">
+                    <a href="#" data-toggle="sidebar">
+                        <i class="fa-bars"></i>
+                    </a>
+                </li>
+                
+                <li class="switch-mode hover-line" onclick="switchNightMode()">
+                    <a href="#">
+                        <svg t="1593061068148" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                             p-id="1681" width="16" height="16">
+                            <path d="M582.4 326.4c-140.8 0-256 115.2-256 256s115.2 256 256 256 256-115.2 256-256-115.2-256-256-256z m0 448c-70.4 0-131.2-36.8-164.8-92.8 12.8 3.2 27.2 4.8 40 4.8 121.6 0 219.2-99.2 219.2-219.2 0-17.6-1.6-35.2-6.4-52.8 60.8 32 102.4 96 102.4 169.6 1.6 104-84.8 190.4-190.4 190.4zM582.4 262.4c17.6 0 32-14.4 32-32v-128c0-17.6-14.4-32-32-32s-32 14.4-32 32v128c0 17.6 14.4 32 32 32zM262.4 582.4c0-17.6-14.4-32-32-32h-128c-17.6 0-32 14.4-32 32s14.4 32 32 32h128c17.6 0 32-14.4 32-32zM310.4 356.8c6.4 6.4 14.4 9.6 22.4 9.6 8 0 16-3.2 22.4-9.6 12.8-12.8 12.8-32 0-44.8l-91.2-91.2c-12.8-12.8-32-12.8-44.8 0-12.8 12.8-12.8 32 0 44.8l91.2 91.2zM944 220.8c-12.8-12.8-32-12.8-44.8 0l-91.2 91.2c-12.8 12.8-12.8 32 0 44.8 6.4 6.4 14.4 9.6 22.4 9.6 8 0 16-3.2 22.4-9.6l91.2-91.2c12.8-12.8 12.8-33.6 0-44.8zM310.4 808l-91.2 91.2c-12.8 12.8-12.8 32 0 44.8 6.4 6.4 14.4 9.6 22.4 9.6 8 0 16-3.2 22.4-9.6l91.2-91.2c12.8-12.8 12.8-32 0-44.8-11.2-11.2-32-11.2-44.8 0z"
+                                  p-id="1682" fill="#707070"></path>
+                        </svg>
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="user-info-menu right-links list-inline list-unstyled">
+                <li class="hidden-sm hidden-xs">
+                    <a href="https://github.com/tamakyi/navi" target="_blank">
+                        <i class="fa-github"></i> GitHub
+                    </a>
+                </li>
+            </ul>
+            
+
+        </nav>
+        
+        <section class="sousuo">
+            <div class="search">
+                <div class="search-box">
+                    <span class="search-icon"
+                          style="background: url('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/images/search_icon.png') 0px 0px; opacity: 1;"></span>
+                    <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
+                    <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
+                </div>
+                
+                <div class="box search-hot-text" id="box" style="display: none;">
+                    <ul></ul>
+                </div>
+                
+                <div class="search-engine" style="display: none;">
+                    <div class="search-engine-head">
+                        <strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+                        <div class="search-engine-tool">
+                            搜索热词： <span id="hot-btn" style="background-image: url(/assets/bootstrap/images/index/off_on.png);"></span>
+                        </div>
+                    </div>
+                    <ul class="search-engine-list search-engine-list_zmki_ul">
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <script>search('https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/navi/assets/images/search_icon.png')</script>
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="常用搜索"></i>常用搜索</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/www.baidu.com', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="中文圈子用的最多的搜索引擎（吧？）。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/baidu.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>百度一下，你就知道</strong>
+                            </a>
+                            <p class="overflowClip_2">中文圈子用的最多的搜索引擎（吧？）。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/www.bing.com', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="请自行想方法切换到其他区域以启用开启EdgeGPT的Bing完全版。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/Bing.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>Bing</strong>
+                            </a>
+                            <p class="overflowClip_2">请自行想方法切换到其他区域以启用开启EdgeGPT的Bing完全版。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/www.google.com', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="如果你能跨过那道墙，这个会很好用。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/Google.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>Google</strong>
+                            </a>
+                            <p class="overflowClip_2">如果你能跨过那道墙，这个会很好用。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/duckduckgo.com', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="不跟踪，无广告的搜索引擎。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/DuckDuckGo.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>DuckDuckGo 鸭鸭走</strong>
+                            </a>
+                            <p class="overflowClip_2">不跟踪，无广告的搜索引擎。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="资源分享"></i>资源分享</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/51.ruyo.net\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="专注免费分享各种使用教程，技术方案，云服务福利，域名服务，优惠福利，羊毛信息以及建站经验。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/ruyou.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>如有乐享</strong>
+                            </a>
+                            <p class="overflowClip_2">专注免费分享各种使用教程，技术方案，云服务福利，域名服务，优惠福利，羊毛信息以及建站经验。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="视频网站"></i>视频网站</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/www.acfun.cn', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="认真你就输了">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/acfun.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>AcFun</strong>
+                            </a>
+                            <p class="overflowClip_2">认真你就输了</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/www.agemys.com\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Age动漫专业的在线动漫网站，动漫免费在线观看，高品质画质，实时更新，追番利器!">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/age.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>AGE动漫 </strong>
+                            </a>
+                            <p class="overflowClip_2">Age动漫专业的在线动漫网站，动漫免费在线观看，高品质画质，实时更新，追番利器!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="游戏相关"></i>游戏相关</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/game.maj-soul.com\/1\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="喜欢被虐，就多玩点。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/qhmaj.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>雀魂麻将</strong>
+                            </a>
+                            <p class="overflowClip_2">喜欢被虐，就多玩点。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/game.mahjongsoul.com\/index.html', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="雀魂（じゃんたま）は麻雀を無料に気軽に遊べるゲーム">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/qhrf.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>雀魂日服</strong>
+                            </a>
+                            <p class="overflowClip_2">雀魂（じゃんたま）は麻雀を無料に気軽に遊べるゲーム</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="ACGN资源"></i>ACGN资源</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/acgngame.top', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="galgame爱好者之家">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/favicon.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>galgame爱好者之家</strong>
+                            </a>
+                            <p class="overflowClip_2">galgame爱好者之家</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/yztm.one', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="御宅同萌是一个以二次元相关资源交流分享为主的小众型社团，相遇即是缘，我们不求名不为利只为分享二次元带给彼此的快乐与感动。 ">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/yztm.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>御宅同萌 - 一个二次元绅士聚集地 - </strong>
+                            </a>
+                            <p class="overflowClip_2">御宅同萌是一个以二次元相关资源交流分享为主的小众型社团，相遇即是缘，我们不求名不为利只为分享二次元带给彼此的快乐与感动。 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http:\/\/www.2cycd.com\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="二次元虫洞，动漫、游戏资源分享和交流论坛。 ">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/2cycd.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>二次元虫洞</strong>
+                            </a>
+                            <p class="overflowClip_2">二次元虫洞，动漫、游戏资源分享和交流论坛。 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/2dfan.org\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="2DFan(二次元爱好者)是一个专注于提供日本游戏、动漫相关内容的门户站点">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/2dfan.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>2DFan</strong>
+                            </a>
+                            <p class="overflowClip_2">2DFan(二次元爱好者)是一个专注于提供日本游戏、动漫相关内容的门户站点</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="轻小说"></i>轻小说</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/www.wenku8.net\/index.php', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="轻小说分享网站，不提供epub格式下载。（当前国内访问不稳定）">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/wenku8.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>文库8</strong>
+                            </a>
+                            <p class="overflowClip_2">轻小说分享网站，不提供epub格式下载。（当前国内访问不稳定）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/masiro.me', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="web版轻小说翻译资源分享论坛">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/masiro.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>真白萌</strong>
+                            </a>
+                            <p class="overflowClip_2">web版轻小说翻译资源分享论坛</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/ncode.syosetu.com\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="日本最大級のWeb小説投稿サイト「小説家になろう」。作品数90万以上、登録者数220万人以上、小説閲覧数月間25億PV以上。パソコン・スマートフォンのどれでも使えて完全無料！">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/xsj.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>小説家になろう （成为小说家吧）</strong>
+                            </a>
+                            <p class="overflowClip_2">日本最大級のWeb小説投稿サイト「小説家になろう」。作品数90万以上、登録者数220万人以上、小説閲覧数月間25億PV以上。パソコン・スマートフォンのどれでも使えて完全無料！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/kakuyomu.jp\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="KADOKAWA 下属免费小说网站。様々なWeb小説を無料で「書ける、読める、伝えられる」、KADOKAWA × はてな によるWeb小説サイトです。ジャンルはファンタジー、SF、恋愛、ホラー、ミステリーなどがあり、二次創作作品も楽しめます！">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/kakuyomu.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>カクヨム</strong>
+                            </a>
+                            <p class="overflowClip_2">KADOKAWA 下属免费小说网站。様々なWeb小説を無料で「書ける、読める、伝えられる」、KADOKAWA × はてな によるWeb小説サイトです。ジャンルはファンタジー、SF、恋愛、ホラー、ミステリーなどがあり、二次創作作品も楽しめます！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/epub.love\/wp\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="这是一个EPUB的轻小说站点">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/tsgdwxhl.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>圖書館的無限迴廊</strong>
+                            </a>
+                            <p class="overflowClip_2">这是一个EPUB的轻小说站点</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/epubln.blogspot.com\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="epub格式轻小说的个人小站">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/epubsite.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>EPUB 輕小說站</strong>
+                            </a>
+                            <p class="overflowClip_2">epub格式轻小说的个人小站</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="番剧下载"></i>番剧下载</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/share.acgnx.se\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="《Project.Anime Comics Game Novel eXchange》，我們簡寫成爲AcgnX。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/acgnx.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>末日动漫资源库</strong>
+                            </a>
+                            <p class="overflowClip_2">《Project.Anime Comics Game Novel eXchange》，我們簡寫成爲AcgnX。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/bangumi.moe\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="番組、萌え">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/favicon.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>萌番组</strong>
+                            </a>
+                            <p class="overflowClip_2">番組、萌え</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http:\/\/share.dmhy.org\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="我从小用到大。（国内访问可能不稳定）">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/dmhy.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong> 動漫花園資源網</strong>
+                            </a>
+                            <p class="overflowClip_2">我从小用到大。（国内访问可能不稳定）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="综合资源"></i>综合资源</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/cangku.moe', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="NSFW警告">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/cangku.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>绅士仓库</strong>
+                            </a>
+                            <p class="overflowClip_2">NSFW警告</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/www.alipansou.com\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="不错的阿里云盘搜索引擎。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/alipansou.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>猫狸盘搜</strong>
+                            </a>
+                            <p class="overflowClip_2">不错的阿里云盘搜索引擎。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="直播素材"></i>直播素材</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/www.photo-ac.com\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Photo AC 的免费照片可免费用于个人和商业用途。 您可以将它们用于网络、DTP 和视频。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/photoac.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>写真AC</strong>
+                            </a>
+                            <p class="overflowClip_2">Photo AC 的免费照片可免费用于个人和商业用途。 您可以将它们用于网络、DTP 和视频。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/sozaino.site\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="OKUMONO 是一个提供可用作传播和视频背景的免费素材的网站。免费发布对 VTubers、YouTubers 和视频发布活动有用的插图！ 您可以将可爱、酷炫的背景、框架等各种素材用于商业用途，而且无需注册。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/okumono.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>OKUMONO</strong>
+                            </a>
+                            <p class="overflowClip_2">OKUMONO 是一个提供可用作传播和视频背景的免费素材的网站。免费发布对 VTubers、YouTubers 和视频发布活动有用的插图！ 您可以将可爱、酷炫的背景、框架等各种素材用于商业用途，而且无需注册。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/booth.pm\/zh-cn', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="BOOTH 是一个与 pixiv 相连的综合性创意作品市场。 创建店铺免费且简单，还提供产品存储和运输服务！">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/booth.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>BOOTH</strong>
+                            </a>
+                            <p class="overflowClip_2">BOOTH 是一个与 pixiv 相连的综合性创意作品市场。 创建店铺免费且简单，还提供产品存储和运输服务！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/dova-s.jp\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="免费 BGM 音乐素材供免费下载。 您可以自由将其用于商业或非商业目的，无需与我们联系。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/dovas.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>DOVA-SYNDROME</strong>
+                            </a>
+                            <p class="overflowClip_2">免费 BGM 音乐素材供免费下载。 您可以自由将其用于商业或非商业目的，无需与我们联系。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/sozaiyairis.com\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="素材屋あいりす | 免费的插图和视频素材网站。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/sozaiyairis.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>素材屋あいりす</strong>
+                            </a>
+                            <p class="overflowClip_2">素材屋あいりす | 免费的插图和视频素材网站。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/aomaterial.com\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="免费材料分发网站 | 面向 Vtubers 和分销商的免费材料分发网站">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/aomaterial.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>AOmaterial</strong>
+                            </a>
+                            <p class="overflowClip_2">免费材料分发网站 | 面向 Vtubers 和分销商的免费材料分发网站</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/reincar.net\/sozai\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="从 Twitter 上提供的免费材料中精心挑选出来的用于制作 Vtuber 缩略图的手工材料和交付屏幕材料。 请谨慎使用。 使用前请仔细阅读条款和条件。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/reincar.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>リンカーネット</strong>
+                            </a>
+                            <p class="overflowClip_2">从 Twitter 上提供的免费材料中精心挑选出来的用于制作 Vtuber 缩略图的手工材料和交付屏幕材料。 请谨慎使用。 使用前请仔细阅读条款和条件。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/vectorshelf.com\/', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="免费的、可用于商业用途OK的手绘插图网站。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/vectorshelf.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>ベクターシェルフ</strong>
+                            </a>
+                            <p class="overflowClip_2">免费的、可用于商业用途OK的手绘插图网站。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="网页小工具"></i>网页小工具</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/www.deepl.com\/translator', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="超强在线翻译器，并自带文档上传翻译功能。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/deepl.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>DeepL</strong>
+                            </a>
+                            <p class="overflowClip_2">超强在线翻译器，并自带文档上传翻译功能。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/ezgif.com\/optimize', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="在线图片处理工具，特别是处理GIF的能力让人印象深刻。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/OPGIF.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>在线图片处理</strong>
+                            </a>
+                            <p class="overflowClip_2">在线图片处理工具，特别是处理GIF的能力让人印象深刻。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="自建服务"></i>自建服务</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/blog.tama.guru', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="念念不忘，必有回响。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/blog.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>狼的公告板 - 念念不忘，必有回响。</strong>
+                            </a>
+                            <p class="overflowClip_2">念念不忘，必有回响。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/box.tama.guru', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="狼的提问箱，无需注册的匿名提问箱">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/ldtwx.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>狼的提问箱</strong>
+                            </a>
+                            <p class="overflowClip_2">狼的提问箱，无需注册的匿名提问箱</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/share.tama.guru', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="好东西都可以分享">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/ldgxp.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>狼的共享盘</strong>
+                            </a>
+                            <p class="overflowClip_2">好东西都可以分享</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/status.tama.guru', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="自建服务状态查询">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/ldztb.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>狼的状态板</strong>
+                            </a>
+                            <p class="overflowClip_2">自建服务状态查询</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="其他服务"></i>其他服务</h4>
+        <div class="row">
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/tamakyi.github.io', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="小狼的备胎站">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/ldbyz.png" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>狼的备用站</strong>
+                            </a>
+                            <p class="overflowClip_2">小狼的备胎站</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https:\/\/tamakyi.github.io\/status', '_blank')"
+                     data-toggle="tooltip" data-placement="bottom" title="" data-original-title="寄存于Github的状态板。">
+                    <div class="xe-comment-entry">
+                        <a class="xe-user-img">
+                            <img data-src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/icons/upload/ldztb.ico" class="lozad img-circle" width="40">
+                        </a>
+                        <div class="xe-comment">
+                            <a href="#" class="xe-user-name overflowClip_1">
+                                <strong>狼的状态板</strong>
+                            </a>
+                            <p class="overflowClip_2">寄存于Github的状态板。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br/>
+        
+        
+        
+        <footer class="main-footer sticky footer-type-1">
+            <div class="footer-inner">
+                
+                <div class="footer-text">
+                    &copy; 2023-2023
+                    <a href="/about"><strong>狼的导航页</strong></a> Modify by  <a href="https://blog.tama.guru"
+                                                                                   target="_blank"><strong>tamakyi</strong></a>
+                </div>
+                
+                <div class="go-up">
+                    <a href="#" rel="go-top">
+                        <i class="fa-angle-up"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+        const observer = lozad();
+        observer.observe();
+
+        $(document).on('click', '.has-sub', function () {
+            var _this = $(this)
+            if (!$(this).hasClass('expanded')) {
+                setTimeout(function () {
+                    _this.find('ul').attr("style", "")
+                }, 300);
+
+            } else {
+                $('.has-sub ul').each(function (id, ele) {
+                    const _that = $(this);
+                    if (_this.find('ul')[0] !== ele) {
+                        setTimeout(function () {
+                            _that.attr("style", "")
+                        }, 300);
+                    }
+                })
+            }
+        })
+        $('.user-info-menu .hidden-sm').click(function () {
+            if ($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style", "")
+            } else {
+                $('.has-sub.expanded > ul').show()
+            }
+        })
+        $("#main-menu li ul li").click(function () {
+            $(this).siblings('li').removeClass('active'); 
+            $(this).addClass('active'); 
+        });
+        $("a.smooth").click(function (ev) {
+            ev.preventDefault();
+
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $(decodeURI($(this).attr("href"))).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+        });
+        return false;
+    });
+
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function (e) {
+        $("#main-menu li").each(function () {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = decodeURI($(this).attr("href"));
+        pos = $(href).position().top - 30;
+    });
+</script>
+
+<script src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/js/bootstrap.min.js"></script>
+<script src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/js/TweenMax.min.js"></script>
+<script src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/js/resizeable.js"></script>
+<script src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/js/xenon-toggles.js"></script>
+
+<script src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/js/xenon-custom.js"></script>
+<script src="https://img-tama-guru.oss-cn-hongkong.aliyuncs.com/webstack-go/assets/js/lozad.min.js"></script>
 </body>
 
 </html>
