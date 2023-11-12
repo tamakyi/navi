@@ -1,8 +1,5 @@
 Webstack网址导航
 ===
-### Demo: [➡️ www.webstack.cc](https://webstack.cc)
-
-QQ群交流：304584722 ; QQ交流群2：740911918
 
 本项目这是一个网址导航网站，内容均由[viggo](https://www.viggoz.com)收集并整理。本项目前端基于bootstrap前端框架开发，各后台及主题版本由广大网友提供。
 
@@ -20,12 +17,6 @@ QQ群交流：304584722 ; QQ交流群2：740911918
 目前 Webstack 已经有数十种完全免费开源后端版本，数十位共建者在维护本项目，本项目尊重各位共建者劳动成果实现盈利，但不鼓励任何盗用 **WebstackPro** 名义盈利的行为。
 
 ![](https://github.com/WebStackPage/WebStackPage.github.io/blob/master/assets/images/webstack_no_pro.png)
-
-欢迎加群一起学习交流技术
----
-|Q群(304584722)|Q群2(740911918)|
-|--|--|
-|![](http://www.webstack.cc/assets/images/qqgroup_webstack.jpg)|![](http://www.webstack.cc/assets/images/qqgroup_webstack2.jpg)|
 
 怎么用?
 ---
