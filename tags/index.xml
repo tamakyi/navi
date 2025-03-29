@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 狼的导航页 Ver.Hugo</title>
-    <link>https://tamakyi.github.io/navi/tags/</link>
+    <link>https://tama.guru/tags/</link>
     <description>Recent content in Tags on 狼的导航页 Ver.Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <atom:link href="https://tamakyi.github.io/navi/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tama.guru/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>狼的导航页 Ver.Hugo</title>
-    <link>https://tamakyi.github.io/navi/</link>
+    <link>https://tama.guru/</link>
     <description>Recent content on 狼的导航页 Ver.Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <atom:link href="https://tamakyi.github.io/navi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tama.guru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于网站</title>
-      <link>https://tamakyi.github.io/navi/about/</link>
+      <link>https://tama.guru/about/</link>
       <pubDate>Sat, 13 Jan 2024 17:27:08 +0800</pubDate>
-      <guid>https://tamakyi.github.io/navi/about/</guid>
+      <guid>https://tama.guru/about/</guid>
       <description>欢迎光临 狼的导航页 本项目是基于纯静态的网址导航网站 webstack-hugo 制作的 Hugo 主题。 主要分享一些我保存在收藏夹的个人认为有用的网站。 提交网址 可以加QQ群联系。</description>
     </item>
   </channel>
